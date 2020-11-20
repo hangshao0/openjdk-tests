@@ -45,7 +45,7 @@ COPY ./dockerfile/jacoco-test.sh /jacoco-test.sh
 RUN mkdir testResults
 WORKDIR /
 RUN pwd
-RUN git clone https://github.com/jacoco/jacoco.git
+RUN git clone https://github.com/hangshao0/jacoco.git
 
 ENTRYPOINT ["/bin/bash", "/jacoco-test.sh"]
 CMD ["$MODE"]

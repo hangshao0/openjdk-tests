@@ -236,7 +236,7 @@ function set_test_info() {
         ubi_minimal_packages="${ubi_packages}"
         ;;
     jacoco)
-        github_url="https://github.com/jacoco/jacoco.git"
+        github_url="https://github.com/hangshao0/jacoco.git"
         script="jacoco-test.sh"
         test_results="testResults"
         tag_version="master"
